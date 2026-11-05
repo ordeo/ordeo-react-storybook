@@ -1,0 +1,1 @@
+const o={margin:0,padding:0,border:0,outline:"none",background:"transparent",appearance:"none",cursor:"inherit"},n="input, textarea, select, button, a, [tabindex]";function a(t,r){if(t.defaultPrevented||t.button!==0||t.target.closest(n))return;const e=t.currentTarget.querySelector(r);!e||e.disabled||(t.preventDefault(),e.focus())}export{a as f,o as r};
